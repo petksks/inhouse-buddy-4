@@ -15,7 +15,7 @@ const Contact = () => {
           <h1 className="text-4xl font-bold mb-4 text-black">Contact Us</h1>
           <p className="text-xl mb-8 text-black">
             If you have any questions or need support, please fill out the form
-            below, and we'll get back to you as soon as possible.
+            below, and we will get back to you as soon as possible.
           </p>
           <form
             action="mailto:peter.sedberg@gmail.com"
