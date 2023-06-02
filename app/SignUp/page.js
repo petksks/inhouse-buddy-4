@@ -1,3 +1,4 @@
+'use client'
 import { supabase } from "../../lib/supabaseClient"
 import styles from './Signup.module.css';
 

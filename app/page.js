@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsUp, faClipboard } from '@fortawesome/free-regular-svg-icons';
 import { faSlidersH } from '@fortawesome/free-solid-svg-icons';
-import Signup from './SignUp/site.signup.page.';
+import Signup from './signup/page';
 
 const Home = () => {
   return (
