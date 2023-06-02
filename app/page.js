@@ -1,21 +1,19 @@
-import Head from 'next/head'
+'use client';
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsUp, faClipboard } from '@fortawesome/free-regular-svg-icons';
 import { faSlidersH } from '@fortawesome/free-solid-svg-icons';
-
+import Signup from './SignUp/site.signup.page.';
 
 const Home = () => {
   return (
     <div>
-      <Head>
         <title>Your Startup Name</title>
         <meta
           name="description"
           content="Your Startup - Dota 2 In-house League Bot"
         />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
       <main className="bg-brand-bg text-white">
         <section className="hero py-16 text-center">
           <h1 className="text-4xl font-bold mb-4 text-black">
@@ -78,13 +76,13 @@ const Home = () => {
             <h2 className="text-3xl font-bold mb-4 text-black">
               Ready to revolutionize your Dota 2 in-house leagues?
             </h2>
-            <a href="https://discord.com/api/oauth2/authorize?client_id=1065134684616536114&permissions=543582321744&scope=bot" target="_blank" rel="noopener noreferrer">
             <button className="bg-accent hover:bg-accent-light text-white font-bold py-2 px-4 rounded">
             Add inhouse buddy
             </button>
-            </a>
-
           </div>
+        </section>
+        <section>
+          <Signup />
         </section>
       </main>
     </div>
